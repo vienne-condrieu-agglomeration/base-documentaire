@@ -8,10 +8,10 @@ FROM squidfunk/mkdocs-material:latest
 # https://github.com/JakubAndrysek/mkdocs-open-in-new-tab
 # https://github.com/byrnereese/mkdocs-minify-plugin
 RUN pip install mkdocs-awesome-pages-plugin \
-    pip install mkdocs-autolinks-plugin \
-    pip install mkdocs-mermaid2-plugin \
-    pip install mkdocs-glightbox \
-    pip install mkdocs-open-in-new-tab \
-    pip install mkdocs-minify-plugin
+    && pip install mkdocs-autolinks-plugin \
+    && pip install mkdocs-mermaid2-plugin \
+    && pip install mkdocs-glightbox \
+    && pip install mkdocs-open-in-new-tab \
+    && pip install mkdocs-minify-plugin
 
 

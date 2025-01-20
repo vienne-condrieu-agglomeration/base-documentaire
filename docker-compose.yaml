@@ -15,14 +15,14 @@ services:
 
 # CREATION DU NETWORK material-mkdocs :
 # docker network create --driver=bridge --subnet=172.20.0.0/16 --gateway=172.20.0.1 material-mkdocs
-networks:
-  material-mkdocs:
-    external: true
-
 # networks:
 #   material-mkdocs:
-#     name: material-mkdocs
-#     driver: bridge
+#     external: true
+
+networks:
+  material-mkdocs:
+    name: material-mkdocs
+    driver: bridge
 #     ipam:
 #       config:
 #         - subnet: "172.20.0.0/16"
