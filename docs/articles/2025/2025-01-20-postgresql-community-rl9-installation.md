@@ -1,5 +1,5 @@
 ---
-title: Installation de PostgreSQL sur un serveur Debian
+title: Déploiement et configuration d'un serveur PostgreSQL 15 - PostGIS 3.5 sous Rocky Linux 9.5
 subtitle: PostgreSQL - Article N°01
 authors:
     - Fabien ALLAMANCHE
@@ -7,7 +7,7 @@ categories:
     - article
 comments: false
 date: 2025-01-20
-description: PostgreSQL - Installation de PostgreSQL avec les dépôts de la communauté sur Rocky Linux 9
+description: PostgreSQL - Déploiement et configuration d'un serveur PostgreSQL 15 - PostGIS 3.5 sous Rocky Linux 9.5
 icon: simple/postgresql
 license: Licence Ouverte / Open Licence - ETALAB
 robots: index, follow
